@@ -1,0 +1,28 @@
+{
+  "name": "jinyicheng/kim-framework",
+  "description": "一个优雅快速的PHP框架",
+  "keywords": [
+    "php",
+    "framework",
+    "fast",
+    "elegant",
+    "ORM"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jinyicheng",
+      "email": "234067496@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "kim\\": "src/kim/"
+    }
+  }
+}
